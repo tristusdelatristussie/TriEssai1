@@ -4,7 +4,9 @@
 public class Tri {
 
 
-    private char tableauChar[];
+
+
+    private static char tableauChar[];
 
     private int i;
 
@@ -15,7 +17,7 @@ public class Tri {
     private int r =0;
 
 
-    public String compareTab(){
+    public String compareTab(char tableauChar[]){
 
 
         for( i=0; i < tableauChar.length; i++){
@@ -46,6 +48,11 @@ public class Tri {
     return ("Pas de nombres en double");
 
     }
+
+    public void setTableauChar(char[] tableauChar) {
+        this.tableauChar = tableauChar;
+    }
+
 
 
 
