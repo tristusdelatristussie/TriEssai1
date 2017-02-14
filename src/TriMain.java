@@ -6,7 +6,7 @@ public class TriMain extends Tri {
 
        public static void main(String[] args){
 
-    TriMain result = new TriMain().compareTab(new TriMain().setTableauChar());
+    TriMain result = new TriMain().compareTab(new TriMain().setTableauChar(char[] tableauChar));
 
     }
 

@@ -6,7 +6,7 @@ public class Tri {
 
 
 
-    private static char tableauChar[];
+    private char tableauChar[];
 
     private int i;
 
