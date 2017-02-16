@@ -19,8 +19,12 @@ public class Tri {
 
     public String compareTab(char tableauChar[]){
 
+        this.tableauChar = tableauChar;
+
 
         for( i=0; i < tableauChar.length; i++){
+
+
 
         tabComp[i] += tableauChar[i];
 

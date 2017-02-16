@@ -3,10 +3,19 @@
  */
 public class TriMain extends Tri {
 
+    private char [] Tableau = {'a','b','c'};
 
-       public static void main(String[] args){
 
-    TriMain result = new TriMain().compareTab(new TriMain().setTableauChar(char[] tableauChar));
+public static void main(String[] args){
+
+
+
+     char [] Tableau = {'a','b','c','a'};
+
+
+
+           String result = new TriMain().compareTab(Tableau);
+           System.out.print(result);
 
     }
 
