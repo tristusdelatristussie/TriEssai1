@@ -3,7 +3,8 @@
  */
 public class TriMain extends Tri {
 
-    private char [] Tableau = {'a','b','c'};
+
+
 
 
 public static void main(String[] args){

@@ -14,23 +14,24 @@ public class Tri {
 
     char tabComp[];
 
-    private int r =0;
+
 
 
     public String compareTab(char tableauChar[]){
 
-        this.tableauChar = tableauChar;
+        setTableauChar(tableauChar);
 
+        int r= 0;
 
         for( i=0; i < tableauChar.length; i++){
 
-
-
-        tabComp[i] += tableauChar[i];
+            tabComp[i] = tableauChar[i];
 
         }
 
         for( j=0; j < tableauChar.length; j++){
+
+
 
 
 
@@ -39,6 +40,7 @@ public class Tri {
                 r++;
 
                 if(r>=2){
+
 
                  /*   System.out.println("Le caractere " + tabComp[i]+ "apparait deux fois"); */
                     return ("Le caractere " + tabComp[i]+ "apparait deux fois");
@@ -54,7 +56,9 @@ public class Tri {
     }
 
     public void setTableauChar(char[] tableauChar) {
-        this.tableauChar = tableauChar;
+        this.tabComp = new char[tableauChar.length];
+        this.tableauChar = new char[tableauChar.length];
+
     }
 
 
