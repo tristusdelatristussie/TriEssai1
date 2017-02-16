@@ -30,11 +30,11 @@ public class Tri {
 
         }
 
-        for( j=0; j < tabComp.length; j++){
+        for( j=0; j < tableauChar.length; j++){
 
 
 
-            if(tabComp[i] == tableauChar[i]) {
+            if(tabComp[i] == tableauChar[j]) {
 
                 r++;
 
